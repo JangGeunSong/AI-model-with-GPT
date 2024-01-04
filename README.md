@@ -1,5 +1,13 @@
 ## The new AI creating project with ChatGPT 4
 
+> 📘 You need to run with
+>
+> .\venv\Scripts\activate
+
+> ❗️ You need to quit with venv
+>
+> deactivate
+
 Notebooks: Use Jupyter notebooks (which you can run in VS Code) for exploratory data analysis and trying out models.
 Src: Store your main project source code here.
 Tests: Keep tests here to ensure your code works as expected.
@@ -29,4 +37,8 @@ Open your project folder in VS Code. Make sure you select the interpreter from y
 Press Ctrl+Shift+P to open the command palette.
 Type Python: Select Interpreter and choose the one that is located inside your project's venv folder.
 
-This command lists all the packages installed in your virtual environment (along with their versions) and saves them to requirements.txt. Others can then set up their own venv and use pip install -r requirements.txt to install all the necessary packages.
+This command lists all the packages installed in your virtual environment (along with their versions) and saves them to requirements.txt. Others can then set up their own venv and use 
+
+> pip install -r requirements.txt 
+
+to install all the necessary packages.
